@@ -22,8 +22,6 @@ class Triangle
     end
   end
 
-  private
-
   def triangle_valid?
     @length1 + @length2 > @length3 &&
     @length2 + @length3 > @length1 &&
